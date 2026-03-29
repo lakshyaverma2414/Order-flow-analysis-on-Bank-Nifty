@@ -1,0 +1,51 @@
+{
+  "total_files": 3135,
+  "clusters": [
+    {
+      "cluster_id": 0,
+      "count": 976,
+      "mean_pearson_residual": 0.0036003513625447584,
+      "std_pearson_residual": 0.07534327669175483,
+      "mean_spearman_residual": -0.009677251755745162,
+      "mean_beta": 0.49365681015816276,
+      "mean_samples": 22138.361680327867
+    },
+    {
+      "cluster_id": 1,
+      "count": 673,
+      "mean_pearson_residual": 0.01009528690264412,
+      "std_pearson_residual": 0.07013568786931225,
+      "mean_spearman_residual": 0.011759705856635515,
+      "mean_beta": 0.16668426071780237,
+      "mean_samples": 21438.04011887073
+    },
+    {
+      "cluster_id": 2,
+      "count": 793,
+      "mean_pearson_residual": -0.008309221048765261,
+      "std_pearson_residual": 0.061082295049714366,
+      "mean_spearman_residual": -0.010187210714829956,
+      "mean_beta": 0.02714340271297484,
+      "mean_samples": 9799.059268600253
+    },
+    {
+      "cluster_id": 3,
+      "count": 693,
+      "mean_pearson_residual": -0.009993377269450337,
+      "std_pearson_residual": 0.0898159867018482,
+      "mean_spearman_residual": -0.025795802787142642,
+      "mean_beta": 0.5193584661741899,
+      "mean_samples": 19098.21067821068
+    }
+  ],
+  "root_dir": "/mnt/d/SHRI_Journey/Prodution_Workflow/corr_matrix/SHRI_V1/master_files",
+  "backend": "sklearn",
+  "feature_columns": [
+    "spearman_residual",
+    "beta",
+    "n_samples",
+    "option_type_encoded",
+    "strike"
+  ],
+  "n_clusters": 4
+}

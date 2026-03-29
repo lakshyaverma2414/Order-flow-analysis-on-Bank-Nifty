@@ -1,0 +1,76 @@
+{
+  "total_files": 3135,
+  "clusters": [
+    {
+      "cluster_id": 0,
+      "count": 38,
+      "mean_pearson_residual": -0.00487342583900763,
+      "std_pearson_residual": 0.018231338866044337,
+      "mean_spearman_residual": -0.009977592684612785,
+      "mean_beta": 0.07327705865435563,
+      "mean_flow_intensity": 129.3558836354804,
+      "mean_spread": -0.11822283112671872,
+      "mean_moneyness": 1408.8295093256265
+    },
+    {
+      "cluster_id": 1,
+      "count": 742,
+      "mean_pearson_residual": 0.0010736555222094733,
+      "std_pearson_residual": 0.08422845797822787,
+      "mean_spearman_residual": -0.006787723015264143,
+      "mean_beta": 0.16282074938342908,
+      "mean_flow_intensity": 30.953730704216515,
+      "mean_spread": -18.58730832631371,
+      "mean_moneyness": 3726.809267892447
+    },
+    {
+      "cluster_id": 2,
+      "count": 1110,
+      "mean_pearson_residual": -0.001019788687354426,
+      "std_pearson_residual": 0.06685620844664959,
+      "mean_spearman_residual": -0.008095174772602652,
+      "mean_beta": 0.36881824576294076,
+      "mean_flow_intensity": 47.20955989102928,
+      "mean_spread": -4.5866295684050735,
+      "mean_moneyness": 1366.8576412070017
+    },
+    {
+      "cluster_id": 3,
+      "count": 1102,
+      "mean_pearson_residual": -0.002132250228832381,
+      "std_pearson_residual": 0.07964571709400821,
+      "mean_spearman_residual": -0.011057521732619912,
+      "mean_beta": 0.37873013614161355,
+      "mean_flow_intensity": 46.29557913396148,
+      "mean_spread": -5.968517148996052,
+      "mean_moneyness": 1375.490412728806
+    },
+    {
+      "cluster_id": 4,
+      "count": 143,
+      "mean_pearson_residual": -0.002351809402358025,
+      "std_pearson_residual": 0.050718412343763515,
+      "mean_spearman_residual": -0.0062866654137357925,
+      "mean_beta": 0.17539372371509282,
+      "mean_flow_intensity": 16.86620335919012,
+      "mean_spread": -219.86639556515615,
+      "mean_moneyness": 3775.8987150239154
+    }
+  ],
+  "root_dir": "/mnt/d/SHRI_Journey/Prodution_Workflow/corr_matrix/SHRI_V1/master_files",
+  "backend": "sklearn",
+  "feature_columns": [
+    "flow_intensity_mean",
+    "flow_intensity_std",
+    "trade_rate",
+    "volume_rate",
+    "spread_mean",
+    "depth_mean",
+    "book_imbalance_mean",
+    "return_std",
+    "realized_variance",
+    "moneyness",
+    "option_type_encoded"
+  ],
+  "n_clusters": 5
+}
