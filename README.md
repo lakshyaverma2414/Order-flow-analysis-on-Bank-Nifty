@@ -1,6 +1,6 @@
 # Flow Microstructure Study on Bank Nifty Index
 
-## 1. Title
+## 1. Objective
 Large-Scale Empirical Study of Order Flow Predictability in **BankNifty** Index Options
 
 ## 2. Motivation
